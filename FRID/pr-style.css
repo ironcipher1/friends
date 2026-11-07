@@ -1,0 +1,245 @@
+/* Classic Friendster Color */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    font-size: 13px;
+     background-image: linear-gradient(to bottom,#000000, white);
+     background-repeat: no-repeat;
+     background-position: top center;
+     background-attachment: fixed;
+}
+
+a {
+    color: #005599;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    /* width: 850px; */
+    margin: 0 auto;
+}
+
+/* Utility Bar */
+.utility-bar {
+    background-color: #D4E3EF;
+    border-bottom: 1px solid #B5C9DB;
+    padding: 5px 0;
+    font-size: 11px;
+}
+
+.utility-bar .right-links {
+    float: right;
+}
+
+/* Main Navigation Bar */
+.navbar {
+    background-color: #000000; /* Signature Friendster Blue */
+    padding: 10px 0;
+    border-bottom: 5px solid #000000;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFFFFF;
+    letter-spacing: -1px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-links a.active {
+    border-bottom: 2px solid #FFFFFF;
+}
+
+/* Layout Structure */
+.main-layout {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.sidebar {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.content {
+    width: 630px;
+}
+
+/* Reusable Content Box */
+.box {
+    background-color: #FFFFFF;
+    border: 1px solid #B5C9DB;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.box h3 {
+    margin-top: 0;
+    color: #3B73B9;
+    border-bottom: 1px solid #EBF2F7;
+    padding-bottom: 5px;
+}
+
+/* Content Specifics */
+.welcome-box {
+    background-color: #F4F8FB;
+    border-left: 5px solid #000000;
+}
+
+.welcome-box h2 {
+    margin-top: 0;
+    color: #000000;
+}
+
+.activity-list {
+    list-style: none;
+    padding: 0;
+}
+
+.activity-list li {
+    padding: 10px 0;
+    border-bottom: 1px dashed #EBF2F7;
+}
+
+.activity-list li:last-child {
+    border-bottom: none;
+}
+
+.time {
+    font-size: 11px;
+    color: #50dce6;
+    display: block;
+    margin-top: 2px;
+}
+
+
+
+/* center text bold */
+.container-text{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 1pc;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    font-size: 11px;
+    color: #003cff;
+    border-top: 1px solid #000000;
+    padding: 15px 0;
+    background-color: #ebf7f6;
+    margin-top: 50pc;
+    font-size: 15px;
+}
+/* all in one frame edit */
+.frame-container{
+    /* float: left; */
+    border-radius: 10px;
+    float: left;
+    padding: 10px;
+}
+/* content frame1 */
+.content-frame1{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    padding-right: 100px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: rgb(240, 33, 102);
+
+    
+
+}
+
+/* content frame2 */
+.content-frame2{
+    background-color: rgb(0, 0, 0);
+    padding-right: 100px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: green;
+
+}
+
+/* content frame3 */
+.content-frame3{
+    background-color: rgb(0, 0, 0);
+    width: 20pc;
+    padding-right: 100px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: #003cff;
+}
+.content-frame1 :hover{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    padding-right: 100px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: rgb(240, 33, 102);
+    box-shadow: 0px 0px 20px rgb(240, 33, 102);
+    background-image: url('tiktok\ logog.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-position: left;
+     /* background-attachment: fixed; */
+
+
+}
+
+.content-frame2 :hover{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    padding-right: 100px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: green;
+    box-shadow: 0px 0px 20px green;
+}
+
+.content-frame3 :hover{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    padding-right: 100px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: #003cff;
+    box-shadow: 0px 0px 20px #003cff;
+}
